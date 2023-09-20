@@ -39,8 +39,9 @@ export default function Home() {
 
 
   return (
-      <main className="flex min-h-screen flex-col items-center justify-between p-4 mt-12 md:p-24">
+      <main className="flex min-h-screen flex-col items-center justify-between p-4 md:p-24">
           {/* create a form with tailwind css taking in a name, email,question, and comments value with a submit button */}
+          <h1 className="text-4xl font-bold text-center text-gray-300 mb-12 font-serif">MSA Attendance Form</h1>
           <div className="w-full max-w-sm">
             <form ref={form} onSubmit={sendFormResponse} className="bg-gray-800 shadow-lg rounded px-6 pt-6 pb-8 mb-4 bg-opacity-75" data-form>
               <div className="flex flex-wrap -mx-3 mb-4">
